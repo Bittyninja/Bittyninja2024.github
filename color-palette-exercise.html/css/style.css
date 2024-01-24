@@ -1,0 +1,124 @@
+#ccs{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#ccs-1 {
+    background-color:#7BDFF2;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#ccs-2{
+    background-color: #B2F7EF;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#ccs-3{
+    background-color: #7FD6E0;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#ccs-4{
+    background-color: #F7D6E0;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#ccs-5{
+    background-color: #F2B5D4;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#ws{
+    font-family: cursive;
+    text-align: center;
+}
+
+#ws-1 {
+    background-color: #FF1053;
+    color:black;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#ws-2{
+    background-color: #6C6EA0;
+    color:black;
+    font-family:cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#ws-3{
+    background-color: #66C7F4; 
+    color:black;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#ws-4{
+    background-color: #C1CAD6;
+    color:black;
+    font-family:cursive;
+    text-align: center;
+    padding: 24px;
+}
+#ws-5{
+    background-color: #FFFFFF;
+    color:black;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#ff {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#ff-1 {
+    background-color: #264653;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#ff-2{
+    background-color: #2A9D8F;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#ff-3{
+    background-color: #E9C46A; 
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#ff-4{
+    background-color: #F4A261;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#ff-5{
+    background-color: #E76551;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
