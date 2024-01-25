@@ -1,0 +1,37 @@
+div {
+    border: 10px ridge coral;
+    margin: 24px;
+ /*
+ Below is the shortend margin using 1 value.
+ 1 vaule og a margin is applied to all 4 slides.
+ */
+}
+div { 
+    margin: 24px;
+    padding: 24px 50px;
+    background-color: lightcyan;
+}
+p {
+    border: 20px dashed blue;
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: cornflowerblue
+}
+a {
+    background-color: blanchedalmond;
+    padding: 15px;
+    display: inline-block;
+}
+ /*
+    2 values spilts it across the vertical and horizontal axis. 
+    The first vaule is applied to the top and the bottom.
+    The second vaule is applied to the left and right.
+    margin: 50px 150px;
+
+ /*
+    3 values spilts it across the top, left/right, and bottom axis.
+    The first is vauled is applied to the top and bottom.
+    The second vaule is applied to left and right.
+    The thrid vaule is applied to the bottom.
+    
+    margin: 25px 200px 50px;
