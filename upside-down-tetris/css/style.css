@@ -14,7 +14,37 @@
 }
 .bittersweet{
     background-color:#ff6666;
-    border-color:#ff6666;
+    border-color: #ff6666;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.greenyellow{
+    background-color: #ccff66;
+    border-color:#ccff66;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.tekhelet{ 
+    background-color: #5d2e9c;
+    border-color: #5d2e9c;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.vanilla{
+    background-color: #f1e8b8;
+    border-color: #f1e8b8;
 }
 .tetris-block{
     padding: 20px;
@@ -24,57 +54,261 @@
 }
 .bittersweet{
     background-color:#ff6666;
-    border-color:#ff6666;
+    border-color: #ff6666;
+}
+.tetris-block{
+    padding: 24px;
+    border-radius: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.greenyellow{
+    background-color: #ccff66;
+    border-color:#ccff66;
+}
+.tetris-block{
+    padding: 24px;
+    border-radius: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.tekhelet{ 
+    background-color: #5d2e9c;
+    border-color: #5d2e9c;
+}
+.tetris-block{
+    padding: 24px;
+    border-radius: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+    .vanilla{
+    background-color: #f1e8b8;
+    border-color: #f1e8b8;
+}
+.tetris-block{
+    padding: 24px;
+    border-radius: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.tekhelet{ 
+    background-color: #5d2e9c;
+    border-color: #5d2e9c;
+}
+.tetris-block{
+    padding: 24px;
+    border-radius: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.bittersweet{
+    background-color:#ff6666;
+    border-color: #ff6666;
 }
 .tetris-block{
     padding: 20px;
     border-width: 5px;
-    border-style: outset;
-    display: inline-block;
-}
-.greenyellow{
-  background-color:#ccff66;
-  border-color: #ccff66;
-}
-.tetris-block{
-    padding: 20px;
-    border-width: 10px;
-   border-style:outset;
-   display:inline-block;
-}
-.tekhelet{
-    background-color:#5d2e8c;
-    border-color:#5d2e8c;
-}
-.tetris-block{
-    padding: 20px;
-    border-width: 10px;
-    border-style: outset;
-    display: inline-block;
-}
-.light-sea-green{
-    background-color: #2ec4b6;
-    border-color:#2ec4b6;
-}
-.tetris-block{
-    padding:20px;
-    border-width:10px;
     border-style:outset;
-    display: inline-block;
+    display:inline-block;
 }
 .vanilla{
-    background-color:#f1e8b8;
-    border-color:#f1e8b8;
+    background-color: #f1e8b8;
+    border-color: #f1e8b8;
 }
 .tetris-block{
-
-    padding:20px;
-    border-width:10px;
+    padding: 20px;
+    border-width: 5px;
     border-style:outset;
-    display: inline-block;
+    display:inline-block;
+}
+.greenyellow{
+    background-color: #ccff66;
+    border-color:#ccff66;
+}
+.tetris-block{
+    padding: 24px;
+    border-radius: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.tekhelet{ 
+    background-color: #5d2e9c;
+    border-color: #5d2e9c;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
 }
 .bittersweet{
     background-color:#ff6666;
-    border-color:#ff6666;
+    border-color: #ff6666;
 }
-
+.tetris-block{
+    padding: 24px;
+    border-radius: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.tekhelet{ 
+    background-color: #5d2e9c;
+    border-color: #5d2e9c;
+}
+.tetris-block{
+    padding: 24px;
+    border-radius: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.tekhelet{ 
+    background-color: #5d2e9c;
+    border-color: #5d2e9c;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.vanilla{
+    background-color: #f1e8b8;
+    border-color: #f1e8b8;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.greenyellow{
+    background-color: #ccff66;
+    border-color:#ccff66;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.bittersweet{
+    background-color:#ff6666;
+    border-color: #ff6666;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.greenyellow{
+    background-color: #ccff66;
+    border-color:#ccff66;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.bittersweet{
+    background-color:#ff6666;
+    border-color: #ff6666;
+}
+.tetris-block{
+    padding: 24px;
+    border-radius: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.tekhelet{ 
+    background-color: #5d2e9c;
+    border-color: #5d2e9c;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.bittersweet{
+    background-color:#ff6666;
+    border-color: #ff6666;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.greenyellow{
+    background-color: #ccff66;
+    border-color:#ccff66;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.tekhelet{ 
+    background-color: #5d2e9c;
+    border-color: #5d2e9c;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.vanilla{
+    background-color: #f1e8b8;
+    border-color: #f1e8b8;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.vanilla{
+    background-color: #f1e8b8;
+    border-color: #f1e8b8;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.greenyellow{
+    background-color: #ccff66;
+    border-color:#ccff66;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.bittersweet{
+    background-color:#ff6666;
+    border-color: #ff6666;
+}
+.tetris-block{
+    padding: 20px;
+    border-width: 5px;
+    border-style:outset;
+    display:inline-block;
+}
+.greenyellow{
+    background-color: #ccff66;
+    border-color:#ccff66;
+}
