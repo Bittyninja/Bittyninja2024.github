@@ -1,0 +1,28 @@
+     .absoulte-paragraph{
+        font-size: 18px;
+    }
+
+    .absoulte-heading{
+        font-size: 5vw;
+    }
+
+    .relative-paragraph{
+        font-size: 2.5vw;
+    }
+    .absoulte-image{
+        width: 350px;
+    }
+    .relative-image{
+        width: 100%;
+    }
+    .inner-container {
+        border: 3px solid red;
+    }
+    .inner-container {
+        border: 3px solid blue;
+    }
+    .inner-container p, .inner-container img {
+        display: inline-block;
+        will-change: 48%;
+    }
+    

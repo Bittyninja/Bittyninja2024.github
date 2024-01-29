@@ -1,0 +1,50 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#id-and-expiration{
+    border:2px solid blue;
+}
+#address{
+    color:black;
+    border: 2px solid green;
+    display:inline-block;
+    width: 20;
+}
+#personal-info{
+    border: 2px solid black;
+}
+#small-pic{
+    border:2px solid blue;
+    display: inline-block;
+    background: rgba(red, green, blue, alpha);opacity: 30%;
+    object-fit: cover;
+}
+#data-fields{
+    text-align:center
+    border:2px solid red;
+    display: inline-block;
+}
+#data-left{
+    border:2px solid black;
+}
+#data-right{
+    border:2px solid black;
+    display: inline-block;
+}
+h1{
+    color:blue;
+}
+h4{
+    text-align: center;
+    background-color:blue;
+    color:white;
+}
+div{
+    text-align: left;
+    color: red; 
+}
