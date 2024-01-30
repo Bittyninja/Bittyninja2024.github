@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 /*
     NOTE TO STUDENTS: 
 
@@ -36,7 +36,7 @@ h1{
     width: 65%;
 }
 #right-side{
-    width:34%
+    width:34%;
 }
 h4{
     background-color:navy;
@@ -57,7 +57,7 @@ h4{
     margin: 8px;
 }
 #data-fields,#small-pic{
-    display: inline;
+    display: inline-block;
 }
 #small-pic img{
     width: 90px;
@@ -77,7 +77,7 @@ h4{
     width: 100%;
 }
 #donor-and-real-id div{
-    display: inline block;
+    display: inline-block;
 }
 #data-left, #data-right{
     display:inline-block;
@@ -92,10 +92,10 @@ h4{
     font-size: 28px;
     font-weight: bold;
     text-align: center;
-    font-family: cursive;
+    font-family:'Ms Madi', cursive;
 }
 #right-side img{
-    width:100;
+    width:100%;
 }
 #donor-and-real-id{
     padding: 4px;
