@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Single Day', cursive;
+    font-size: medium;
+    font-weight: bold;
+}
+.h2 {
+    background-color: rgb(151, 231, 241);
+    font-weight: bold;
+    text-align: center;
+}
+.oahu-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.honolulu-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kaala-container {
+    text-align:center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.molokai-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto;
+}
