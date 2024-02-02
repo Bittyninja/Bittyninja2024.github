@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
-
-*{
+* {
     box-sizing: border-box;
 }
 body {
@@ -9,8 +7,9 @@ body {
     font-size: medium;
     font-weight: bold;
 }
-.h2 {
+#Ohuhu {
     background-color: rgb(151, 231, 241);
+    color: black;
     font-weight: bold;
     text-align: center;
 }
