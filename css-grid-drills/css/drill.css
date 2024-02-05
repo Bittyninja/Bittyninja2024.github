@@ -28,6 +28,7 @@
     grid-area:three;
 }
 
+
 #d4-cell2{
     grid-area: one;
 }
@@ -75,5 +76,5 @@
 }
 
 #d6-cell3{
-    grid-area: threes;
+    grid-area: three;
 }
