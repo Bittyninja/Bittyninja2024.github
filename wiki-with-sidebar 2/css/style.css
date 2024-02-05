@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+#main-content {
+    flex: 1;
+    padding: 48px;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 50%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.light-container {
+    background-color: antiquewhite;
+    padding: 48px 0px;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#main-content {
+    background-color: peachpuff;
+    width: 250px;
+    padding: 24px;
+    border-right: 3px solid navy;
+}
+.id h1 {
+    font-size: fantasy;
+    font: 18px;
+    color: navy;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.id h2 {
+    font-family: fantasy;
+    font: 18px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.id h3 {
+    font-family: fantasy;
+    font: 18px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.id h4 {
+    font-family: fantasy;
+    font: 18px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.id h5 {
+    font-family: fantasy;
+    font: 18px;
+    font-weight: bold;
+    padding: 3px;
+}
+.id h6 {
+    font-family: fantasy;
+    font: 18px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.id h7 {
+    font-family: fantasy;
+    font: 18px;
+    font-weight: bold;
+    padding: 3px;
+}
+.id h8 {
+    font-family: fantasy;
+    font: 18px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.id h9 {
+    font-family: fantasy;
+    font: 20px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.h1 {
+    border-bottom: 3px solid gray;
+    padding-bottom: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+
+}
+.h2 {
+    border-bottom: 3px solid gray;
+    padding-bottom: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.h3 {
+    border-bottom: 3px solid gray;
+    padding-bottom: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+}
+.h4 {
+    border-bottom: 3px solid gray;
+    padding-bottom: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.h5 {
+    border-bottom: 3px solid gray;
+    padding-bottom: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.h6 {
+    border-bottom: 3px solid gray;
+    padding-bottom: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#content h7 {
+    border-bottom: 3px solid gray;
+    padding-bottom: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+}
+.h7 {
+    border-bottom: 3px solid gray;
+    padding-bottom: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.h8 {
+    border-bottom: 3px solid gray;
+    padding-bottom: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+}
+.h8 {
+    border-bottom: 3px solid gray;
+    padding-bottom: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
