@@ -34,11 +34,11 @@ body {
     text-decoration: none;
 }
 
-#header #me {
+#header #my {
     color:#111111;
 }
 
-#header #tube {
+#header #tv {
     color: white;
     background-color: hotpink;
     padding: 4px;
@@ -65,38 +65,64 @@ body {
     background-color: #ebdcee;
     border-radius: 12px;
 }
-
-.metube-item {
+.MyTV-item {
     flex: 250px;
     margin-right: 12px;
     margin-bottom: 24px ;
 }
 
-.metube-item .thumbnail-placeholder{
+.MyTV-item .thumbnail-placeholder{
     aspect-ratio: 16/9;
     background:radial-gradient(at top left,rgb(80, 219, 207),lavender);
     border-radius: 16px;
 }
 
-.metube-item h4 { 
+.MyTV-item h4 { 
     margin: 8px;
 }
 
-.metube-item h4 a {
+.MyTV-item h4 a {
     text-decoration: none;
     color: #111111;
     display: block;
 }
 
-.metube-item h4 a:hover {
+.MyTV-item h4 a:hover {
     text-decoration: underline;
 }
 
-.metube-item .video-details {
+.MyTV-item .video-details {
     margin: 0px;
     font-size: 14px;
 }
 
-.metube-item .video-channel {
+.MyTV-item .video-channel {
     margin-bottom: 4px;
+}
+
+#m1 .thumbnail{
+    background-image: url(../images/download.jpg);
+    background-size: cover;
+}
+#m2 .thumbnail{
+    background-image: url(../images/hq720-1.jpg);
+    background-size: cover;
+}
+
+#m3 .thumbnail{
+    background-image: url(../images/How-to-Refill-Ohuhu-Markers-Demo-by-Thaneeya-McArdle.jpg);
+    background-size: cover;
+}
+
+#m4 .thumbnail{
+    background-image: url(../images/maxresdefault.jpg);
+    background-size: cover;
+}
+#m5 .thumbnail{
+    background-image: url(../images/images.jpg);
+    background-size: cover;
+}
+#m6 .thumbnail{
+    background-image: url(../images/download.jpg);
+    background-size: cover;
 }
