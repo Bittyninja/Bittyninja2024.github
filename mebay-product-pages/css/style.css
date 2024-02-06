@@ -8,7 +8,7 @@ body {
     font-family:sans-serif;
 }
 #three-colums {
-    display:grid ;
+    display: grid ;
 }
 
 #grid-layout {
@@ -30,10 +30,16 @@ body {
     padding: 4px 0px;
 }
 
-#sidebar-column-1 ul a,
+#sidebar-column-1 ul li,
+#sidebar-column-2 ul li {
+    list-style-type: none;
+    padding: 4px 0px;
+}
+
 #sidebar-column-2 ul a {
     color: #eeeeee;
     text-decoration: none;
+    text-align: center;
 }
 
 #sidebar-column-1 {
@@ -60,6 +66,8 @@ body {
     padding: 12px;
     border-radius: 12px;
 }
+
+
 
 h1 {
     color: white;
