@@ -1,36 +1,77 @@
 * {
     box-sizing: border-box;
 }
+.single-column {
+    width: 75%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body {
+    text-align: center;
     margin: 0px;
     font-family: 'Single Day', cursive;
     font-size: medium;
     font-weight: bold;
 }
-#Ohuhu {
+
+#ohuhu-series{
     background-color: rgb(151, 231, 241);
     color: black;
     font-weight: bold;
     text-align: center;
 }
+
+#honohulu-series{
+    background-color: rgb(183, 214, 218);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#kaala-series {
+    background-color: rgb(183, 214, 218);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#molokai-series {
+    background-color: rgb(183, 214, 218);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#honohulu-series{
+    background-color: rgb(183, 214, 218);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
 .oahu-container {
+    text-align: center;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 .honolulu-container {
+    text-align: center;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 .kaala-container {
-    text-align:center;
+    text-align: center;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 .molokai-container {
+    text-align: center;
     width: 50%;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
 }

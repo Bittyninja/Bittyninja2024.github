@@ -3,20 +3,22 @@
 }
 body {
     margin: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif
     font-size: 18px;
-
-background-color: powderblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: powderblue;
 }
+
 #grid-layout {
     display: grid;
     grid-template-columns: 1fr 450px 250px 1fr;
     margin: 36px 0px;
 }
+
 #sidebar-content {
-    grid-area:auto;
+    grid-area: auto;
     padding: 18px;
 }
+
 #sidebar-content h5 {
     background-color: magenta;
     margin: 0px;
@@ -25,6 +27,7 @@ background-color: powderblue;
     font-size: 18px;
     font-weight: bold;
 }
+
 #sidebar-content ul {
     background-color: lavender;
     border: 1px solid plum;
@@ -32,23 +35,27 @@ background-color: powderblue;
     list-style: none;
     padding: 0px 12px;
 }
+
 #sidebar-content a {
     color: rgb(197, 20, 197);
     text-decoration: none;
 }
+
 #sidebar-content li {
     border-bottom: 1px solid rgb(226, 12, 126);
     padding: 8px 0px;
 }
+
 #sidebar-content h6 {
     background-color: magenta;
     margin: 0px;
-    padding: 12px;
+    padding: 20px;
     color: yellow;
     font-size: 18px;
     font-weight: bold;
 }
-#sidebar-content h7 {
+
+#sidebar-content h5 {
     background-color: magenta;
     margin: 0px;
     padding: 12px;
@@ -75,47 +82,25 @@ h2 {
 h3 {
     font-size: 18px;
     padding: 4px;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: cursive;
 }
 
 h4 {
     font-size: 12px;
     padding: 4px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-h8 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 19px;
-    font-weight: bold;
+    font-family: cursive;
 }
 
-h9 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 19px;
-    font-weight: bold;
+h5 {
+    font-size: 12px;
+    padding: 4px;
+    font-family: cursive;
 }
 
-    h10 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 19px;
-    font-weight: bold;
-}
 
-h11 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 19px;
-    font-weight: bold;
-}
 
-h12 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 19px;
-    font-weight: bold;
-}
-
-h13 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h6 {
+    font-family: cursive;
     font-size: 19px;
     font-weight: bold;
 }
