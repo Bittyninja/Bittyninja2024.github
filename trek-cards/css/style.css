@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card-style-1 {
+    max-width: 350px;
+}
+
+.card-style-1 img {
+    width: 100%;
+}
+
+.card-style-1 a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border:3px solid green;
+    transition: 
+        background-color 0.5s rgb(182, 197, 182),
+        color 0.5s;
+    flex-direction: column;
+}
+
+.card-container a:hover {
+    background-color: transparent;
+    color: rgb(139, 225, 139);
+}
