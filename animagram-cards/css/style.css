@@ -1,19 +1,33 @@
 * {
     box-sizing: border-box;
     }
-    
-    #section-2 {
-    display: block;
-    }
 
     body {
         margin: 48px auto;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 48px;
-        justify-content: center;
-        padding: 19px;
+        font-family: sans-serif;
     }
+    .single-column {
+        min-width: 600px;
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+    .section-2 {
+        background-color: white;
+        color: black;
+        padding: 48px;
+    }
+    
+    #section-2 {
+    display: block;
+    width: 90vw;
+    max-width: 350px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+    }
+
 
     .card-style-2 {
         width: 350px;

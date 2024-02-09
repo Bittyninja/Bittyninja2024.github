@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container {
+    flex: 1;
+    border: 8px solid gold;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.card-container {
+    align-items: stretch;
+}
+
+.card-container h3 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+#section-3 {
+    padding: 48px;
+}
+
+.card-style-3 {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+    text-align: justify;
+}
+
+
+.card-style-3-pokemon header {
+    flex: 1;
+}
+
+.card-style-3 .details {
+    flex: 1;
+    padding: 36px;
+}
+
+
+.card-style-3 .attack .power {
+    min-width: 50px;
+    text-align: center;
+}
+
+#section-3 .card-container {
+    align-items: stretch;
+}
+
+.card-style-3 .energy {
+    min-width: 50px;
+    text-align: center;
+}
+
+
+.card-style-3 .data {
+    flex: 1;
+    padding: 36px;
+}
+
+.card-style-3 .image-container img {
+    width: 100%;
+}
+
+.card-style-3 .pokemon-header h2 {
+    font-size: 48px;
+    text-align: justify;
+}
+
