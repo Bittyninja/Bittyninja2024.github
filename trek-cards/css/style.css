@@ -5,9 +5,21 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-
+#section-1 {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
 .card-style-1 {
     max-width: 350px;
+    border-radius: 5px;
+    padding: 24px;
+    box-shadow: -4px 4px 12px #494545;
+    background: linear-gradient(-50deg,#e1f0e8, #dcf2d4, #eff2ef);
 }
 
 .card-style-1 img {
@@ -15,23 +27,26 @@ body {
 }
 
 .card-style-1 a {
-    color: black;
+    background-color: rgb(13, 147, 13);
+    color: white;
     text-decoration: none;
     font-size: 20px;
-    font-weight: bold;
-    background-color: green;
+
     display: inline-block;
     width: 100%;
     padding: 10px;
     text-align: center;
-    border:3px solid green;
+    border: 3px solid green;
     transition: 
-        background-color 0.5s rgb(182, 197, 182),
+     0.5s (rgb(13, 147, 13)),
         color 0.5s;
-    flex-direction: column;
 }
 
 .card-container a:hover {
     background-color: transparent;
-    color: rgb(139, 225, 139);
+    color: rgb(55, 185, 55);
 }
+
+[
+
+]
