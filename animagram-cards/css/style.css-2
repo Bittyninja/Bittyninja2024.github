@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 48px auto;
+    font-family: sans-serif;
+}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+ }
+
+#section-2 {
+width: 90vw;
+max-width: 350px;
+margin: 48px auto;
+display: flex;
+flex-wrap: wrap;
+gap: 36px;
+justify-content: center;
+}
+
+.animagram-card h2{
+    font-size: 36px;
+    margin-top: 12px;  
+    margin-bottom: 0px;
+}
+
+.animagram-card .style-2 {
+    width: 350px;
+    border-radius: 10px solid white;
+    padding: 10px;
+    box-shadow: -6px 4px 12px pink;
+    display: flex;
+    max-width: 350px;
+    border: 1px solid roba (135, 102, 135, 0.51); border-radius: 30px;
+    flex-direction: column;
+}
+
+.profile-pic-container img {
+    width: 50%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 12px;
+
+.card-style-2 h2 {
+    font-size: 18px; font-weight: bold;
+    text-align: center;
+    }
+
+.card-style-2 p {
+    font-size: 18px; font-weight: bold;
+    text-align: center;
+    }
+
+}
+.animagram-card p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.animagram-card {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(201, 159, 240);
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+
+}
+    
+.animagram-card a:hover { 
+    background-color: transparent;
+    color: rgb(246, 177, 246);
+}
+
+.animagram-footer {
+    justify-content: center;
+}

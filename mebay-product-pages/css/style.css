@@ -36,10 +36,12 @@ body {
     padding: 4px 0px;
 }
 
-#sidebar-column-2 ul a {
+#sidebar-column-2 ul li a {
     color: #eeeeee;
     text-decoration: none;
     text-align: center;
+
+
 }
 
 #sidebar-column-1 {
@@ -66,8 +68,6 @@ body {
     padding: 12px;
     border-radius: 12px;
 }
-
-
 
 h1 {
     color: white;
