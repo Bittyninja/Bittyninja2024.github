@@ -3,82 +3,82 @@
 }
 body {
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.card-container {
-    flex: 1;
-    border: 8px solid gold;
-    padding: 36px;
-    text-align: center;
-    margin: 36px;
-    background-color: gold;
-    color: black;
-    font-weight: bold;
-}
-
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-    min-width: 600px;
-    max-width: 1200px;
-    margin: 0px auto;
-}
-
-.card-container {
-    align-items: stretch;
-}
-
-.card-container h3 {
-    font-size: 40px;
-    margin: 0px;
-}
-
-#section-3 {
-    padding: 48px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .card-style-3 {
-    display: flex;
-    align-items: center;
-    margin: 48px 0px;
-    text-align: justify;
-}
-
-
-.card-style-3-pokemon header {
     flex: 1;
-}
-
-.card-style-3 .details {
-    flex: 1;
+    border: 16px solid gold;
+    border-radius: 20px;
     padding: 36px;
-}
-
-
-.card-style-3 .attack .power {
-    min-width: 50px;
     text-align: center;
+    margin: 36px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    gap: 36px;
+    box-shadow: -4px 4px 12px;
 }
 
-#section-3 .card-container {
+
+.card-style-3 h3 {
+    font-size: 30px;
+    margin: 0px;
+    text-align: left;
+}
+
+.card-style-3 .health {
+    font-size: 20px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    margin: 0px;
+}
+
+#card-container {
+    padding: 48px;
     align-items: stretch;
 }
 
-.card-style-3 .energy {
-    min-width: 50px;
-    text-align: center;
+.card-style-3 .pokemon-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.card-style-3 .details {
+    background: gold;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-style-3 .description {
+    align-items: center;
+    justify-content: space-between;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+
+.card-style-3 .data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid gold;
+}
+
+.card-style-3 .attack {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 5px;
+}
 
 .card-style-3 .data {
     flex: 1;
     padding: 36px;
 }
 
-.card-style-3 .image-container img {
+.card-style-3  img {
     width: 100%;
 }
 
@@ -87,3 +87,8 @@ body {
     text-align: justify;
 }
 
+.description .bold {
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
