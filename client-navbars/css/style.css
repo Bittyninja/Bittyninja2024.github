@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background:linear-gradient(to top right, 
+    rgb(47, 23, 3), 
+    rgb(240, 174, 6),
+    rgb(31, 184, 11));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#navbar img {
+    width: 100px;
+}
+#navbar #logo {
+    margin-right: auto;
+}
+#navbar .cta-button {
+    background-color: orange;
+    color: green;
+    border-radius: 30px;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+#navbar h1 {
+    text-align: center;
+    font-family: "Grandstander", cursive;
+}
+
+#layout {
+    width: 700px;
+    margin: 46px auto;
+    font-size: 18px;
+    font-family: "Grandstander", cursive;
+    height: 200vh;
+}
+
+#navbar-2 {
+    background:linear-gradient(to top right, 
+    rgb(47, 23, 3), 
+    rgb(240, 174, 6),
+    rgb(31, 184, 11));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar-2 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#navbar-2 img {
+    width: 50px;
+}
+#navbar-2 #logo {
+    margin-right: auto;
+}
+#navbar-2 .cta-button {
+    background-color: orange;
+    color: green;
+    border-radius: 30px;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+#navbar-2 h2 {
+    text-align: center;
+    font-family: "Grandstander", cursive;
+}
+
+#layout-2 {
+    width: 700px;
+    margin: 46px auto;
+    font-size: 18px;
+    font-family: "Grandstander", cursive;
+    height: 200vh;
+}
