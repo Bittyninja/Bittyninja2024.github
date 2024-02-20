@@ -17,13 +17,15 @@ body {
 .card-style-1 {
     max-width: 350px;
     border-radius: 5px;
-    padding: 24px;
+    margin: 12px;
+    padding: 48px;
     box-shadow: -4px 4px 12px #494545;
     background: linear-gradient(-50deg,#e1f0e8, #dcf2d4, #eff2ef);
 }
 
 .card-style-1 img {
     width: 100%;
+
 }
 
 .card-style-1 a {
@@ -31,7 +33,6 @@ body {
     color: white;
     text-decoration: none;
     font-size: 20px;
-
     display: inline-block;
     width: 100%;
     padding: 10px;
@@ -47,6 +48,3 @@ body {
     color: rgb(55, 185, 55);
 }
 
-[
-
-]
