@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#cards-container-movies {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid black;
+    padding: 12px;
+    margin: 36px;
+}
+
+#card1:hover {
+    background-color: tan;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card1 {
+    transition:
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+
+#card2:hover {
+    background-color: tan;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card2 {
+    transition:
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+
+#card3:hover {
+    background-color: tan;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card3 {
+    transition:
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+
+#card4:hover {
+    background-color: tan;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card4 {
+    transition:
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+
+
+
+
+#cards-container-marker {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+#card5:hover .card-content-marker {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#card5 .card-content-marker {
+    transition: 
+    opacity 0.5s
+    visibility 0.5s;
+}
+
+#card6:hover .card-content-marker {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#card6 .card-content-marker {
+    transition: 
+    opacity 0.5s
+    visibility 0.5s;
+}
+
+#card7:hover .card-content-marker {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#card7 .card-content-marker {
+    transition: 
+    opacity 0.5s
+    visibility 0.5s;
+}
+
+#card8:hover .card-content-marker {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#card8 .card-content-marker {
+    transition: 
+    opacity 0.5s
+    visibility 0.5s;
+}
