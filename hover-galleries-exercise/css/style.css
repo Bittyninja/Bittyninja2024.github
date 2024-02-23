@@ -89,14 +89,11 @@ h1 {
 }
 
 
-
-
 #cards-container-marker {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
 }
-
 
 #card5:hover .card-content-marker {
     opacity: 0;
@@ -141,3 +138,117 @@ h1 {
     opacity 0.5s
     visibility 0.5s;
 }
+
+#card9 {
+    position: relative;
+}
+
+#card9 .card-content-animal {
+    position: absolute;
+    background-color: grey;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0px;
+    visibility: hidden;
+    transform: translateX(-8px);
+    transition:
+        opacity 0.5s,
+        visiblity 0.5s;
+}
+
+#card9:hover .card-content-animal {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+
+}
+#card10 {
+    position: relative;
+}
+
+#card10 .card-content-animal {
+    position: absolute;
+    background-color: grey;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0px;
+    visibility: hidden;
+    transform: translateX(-8px);
+    transition:
+        opacity 0.5s,
+        visiblity 0.5s;
+}
+
+#card10:hover .card-content-animal {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+
+}
+#card11 {
+    position: relative;
+}
+
+#card11 .card-content-animal {
+    position: absolute;
+    background-color: grey;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0px;
+    visibility: hidden;
+    transform: translateX(-8px);
+    transition:
+        opacity 0.5s,
+        visiblity 0.5s;
+}
+
+#card11:hover .card-content-animal {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+
+}
+
+#card12 {
+    position: relative;
+}
+
+#card12 .card-content-animal {
+    position: absolute;
+    background-color: grey;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0px;
+    visibility: hidden;
+    transform: translateX(-8px);
+    transition:
+        opacity 0.5s,
+        visiblity 0.5s;
+}
+
+#card12:hover .card-content-animal {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+
+}
+
+
+
+

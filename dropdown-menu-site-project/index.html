@@ -2,21 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dropdown-Menu_Site-Project</title>
+    <title>Dropdown-Menu-Site-Project</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <div>
+        <div id="navbar">
+            <a id="logo" href="#">AdoptMePlz</a>
+            <div class="dropdown-container">
+                <a href="#">Adopt<i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-menu">
+                    <a href="#">Corgi</a>
+                    <a href="#">Sheepdog</a>
+                    <a href="#">Spaniel</a>
+                </div>
+            </div>
+    
         <div id="hero-1">
+            <h2>Pet Adoption Day</h2>
             <a href="#">Learn More</a>
           </div>
 
 
-    <div id="single-column">
-        <div id="card">
+    <div id="card-container">
+        <div id="card-1" class="card">
             <h1 id="name-1">Thomas the Corgi</h1>
-            <h2 id="type-1">Pembroke Welsh Corgi</h2>
+            <h2 id="type-1">Pembroke <br>Welsh Corgi</h2>
+            <div class="card-content">
             <img src="images/corgi.jpg" alt="dog-1">
             <p>
                 Thomas is a Pembroke Welsh Corgi. He is happy, alert, and very 
@@ -25,12 +40,13 @@
                 knows how to shake, roll over, and fetch. He is a good watchdog 
                 and will either be very noisy or very cautious with strangers.
             </p>
-            <a href="#"> Adopt Now </a> 
+            <a href="#">Adopt Now</a> 
         </div>
+    </div>
 
-            <div id="card">
+            <div id="card-2" class="card">
                 <h1 id="name-2">Ziva the Shetland Sheepdog</h1>
-                <h2 id="type-1">Shetland Sheepdog</h2>
+                <h2 id="type-2">Shetland Sheepdog</h2>
                 <img src="images/sheepdog.jpg" alt="dog-2">
                 <p>
                     Ziva is a good-natured dog, and she is very eager to please. 
@@ -39,14 +55,13 @@
                     standoffish with strangers. She has a big and beautiful 
                     coat that requires daily grooming. She will make a great 
                     addition to your home.
-
                 </p>
                 <a href="#"> Adopt Now </a> 
             </div>
 
-            <div id="card">
-                <h1 id="name-2">Lady and Luna</h1>
-                <h2 id="type-1">Cavalier King Charles Spaniels</h2>
+            <div id="card-3"class="card">
+                <h1 id="name-3">Lady and Luna</h1>
+                <h2 id="type-3">Cavalier King Charles Spaniels</h2>
                 <img src="images/spainels.jpg" alt="dog-3">
                 <p>
                     It may be in their nature to chase birds, but they are  
@@ -57,7 +72,6 @@
                     children who will play outside with them and give them 
                     much-needed exercise. We are asking that Lady and Luna be 
                     adopted together.
-
                 </p>
                 <a href="#"> Adopt Now </a> 
             </div>
