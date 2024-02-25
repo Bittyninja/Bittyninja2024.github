@@ -9,8 +9,10 @@ body {
 #navbar {
     background: linear-gradient(to top, green, #0e5b96);
     display: flex;
+    justify-content: space-between;
     align-items: center;
     font-weight: bold;
+    position: sticky;
 }
 
 #navbar a {
@@ -38,6 +40,7 @@ body {
 
 .dropdown-menu {
     position: absolute;
+    background-color: rgb(185, 207, 226);
     opacity: 0;
     visibility: hidden;
     transition:
@@ -62,39 +65,46 @@ body {
 }
 
 
+#hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+}
 
 #hero-1 {
     background-image: url(../images/hero.jpg);
-    height: 100px;
+    height: 100vh;
     background-size: cover;
     background-position: center center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:flex-end;
+    
 }
 
 #hero-1 h2 {
-    font-size: 8vw;
-    margin-bottom: 5vh;
-    margin: 5vw;
-    color: white;
+   font-size: 15vw;
+   padding-left: 10vw;
+   color: rgb(116, 189, 48);
+   padding: 24px;
+
 }
 
 
 #hero-1 a {
-    font-size: 1.5s;
+    font-size: 1.5vw;
     display: inline-block;
-    background-color: green;
-    color: linear-gradient(to top, green, #0e5b96);
+    background-color: gray;
+    color: rgb(107, 52, 6);
     font-weight: bold;
     text-decoration: none;
     padding: 24px;
-    margin: 5vh 5vw 10vh 0px;
+    margin: 5vw 5vw 10vw 0px;
 }
 
 
-#card-container {
+#card-container-1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -158,3 +168,5 @@ body {
     box-shadow: 8px 8px 8px yellow;
     transform: translateY(-4px);
 }
+
+
