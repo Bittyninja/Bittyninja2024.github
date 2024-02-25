@@ -141,6 +141,8 @@ h1 {
 
 #card9 {
     position: relative;
+    background: gray;
+    color: white;
 }
 
 #card9 .card-content-animal {
@@ -168,6 +170,8 @@ h1 {
 }
 #card10 {
     position: relative;
+    background: gray;
+    color: white;
 }
 
 #card10 .card-content-animal {
@@ -195,6 +199,8 @@ h1 {
 }
 #card11 {
     position: relative;
+    background: gray;
+    color: white;
 }
 
 #card11 .card-content-animal {
@@ -223,6 +229,8 @@ h1 {
 
 #card12 {
     position: relative;
+    background: gray;
+    color: white;
 }
 
 #card12 .card-content-animal {
@@ -246,7 +254,6 @@ h1 {
     opacity: 1;
     visibility: visible;
     transform: translateY(0px);
-
 }
 
 
