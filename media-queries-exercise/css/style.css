@@ -212,10 +212,17 @@ a {
 
 /* TODO: Add your media query code here */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 481px) {
     body {
-        background-color: white;
+        background-color: rgb(222, 157, 157);
     }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: darkgrey;
+    }
+    
 }
 
 .contient.container{
@@ -231,7 +238,7 @@ a {
 .hero h1 {
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 0px;;
+    margin: 0px;
     font-size: 20px;
 }
 
@@ -244,7 +251,12 @@ a {
     flex-wrap: wrap;
 }
 
+.card {
+    background-color: white;
+}
+
 .card p {
+    
     font-size: 12px;
 }
 

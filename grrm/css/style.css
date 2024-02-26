@@ -442,12 +442,11 @@ body {
 @media screen and (max-width: 1000px ) and (min-width: 801px) {
     body {
         background-color: rgb(177, 173, 173);
-}
-} 
+    }
+ 
 
 
 #grid-layout {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
         "card-1"
@@ -492,12 +491,12 @@ body {
     height: 300px;
 }
 
-
+}
     
 @media screen and (max-width:800px) {
     body {
         background-color: firebrick;
-}
+    }
 }
 
 .nav {
@@ -518,7 +517,6 @@ body {
 }
 
 .grid-layout {
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
         "card-1"

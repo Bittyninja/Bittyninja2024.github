@@ -65,7 +65,7 @@ body {
 }
 
 #posca-2 h3 {
-    background-color:rgba(255, 255, 255, 0.244);
+    background-color:  rgba(255, 255, 255, 0.244);
     font-size: 15vw;
     padding-left: 10vw;
     color: rgb(4, 250, 45);
@@ -73,7 +73,7 @@ body {
 }
 
 #posca-2 h4 {
-    background-color:rgba(255, 255, 255, 0.611);
+    background-color: rgba(255, 255, 255, 0.611);
     color: rgb(255, 106, 0);
     font-size: 6vw;
     margin-bottom: 5vw;
@@ -103,7 +103,7 @@ body {
 }
 
 #posca-3 h5 {
-    background-color:rgba(255, 255, 255, 0.244);
+    background-color: rgba(255, 255, 255, 0.244);
     font-size: 5vw;
     padding-left: 10vw;
     color: rgb(27, 227, 27);
@@ -111,7 +111,7 @@ body {
 }
 
 #posca-3 h6 {
-    background-color:rgba(255, 255, 255, 0.611);
+    background-color: rgba(255, 255, 255, 0.611);
     color: rgb(255, 106, 0);
     font-size: 6vw;
     margin-bottom: 5vw;

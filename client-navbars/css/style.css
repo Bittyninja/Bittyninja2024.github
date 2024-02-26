@@ -9,13 +9,13 @@ body {
 }
 
 #navbar-1 {
-    background:linear-gradient(to top right, 
+    background: linear-gradient(to top right, 
     rgb(47, 23, 3), 
     rgb(240, 174, 6),
     rgb(31, 184, 11));
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
 #navbar-1 a {
@@ -41,8 +41,10 @@ body {
     text-align: center;
     margin-right: 24px;
 }
-#navbar-1 h1 {
-    text-align: center;
+#nav-container-1 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: "Grandstander", cursive;
 }
 
@@ -55,7 +57,7 @@ body {
 }
 
 #navbar-2 {
-    background:linear-gradient(to top right, 
+    background: linear-gradient(to top right, 
     #3f5197, 
     rgb(220, 222, 230),
     navy);
@@ -104,7 +106,7 @@ body {
 }
 
 #navbar-3 {
-    background:linear-gradient(to top right, 
+    background: linear-gradient(to top right, 
     #e5610a, 
     rgb(241, 144, 9),
     rgb(0, 0, 0));
