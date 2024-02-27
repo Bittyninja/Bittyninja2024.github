@@ -7,9 +7,9 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
+.absloute-heading {
+    font-size: 2.5vw;
     display: flex;
-    flex-wrap: wrap;
     text-align: center;
 }
 
@@ -44,9 +44,9 @@ h1 {
 
 #card1 {
     transition:
-    background-color 0.5s,
-    box-shadow 0.5s,
-    transform 0.5s;
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
 }
 
 #card2:hover {
@@ -57,9 +57,9 @@ h1 {
 
 #card2 {
     transition:
-    background-color 0.5s,
-    box-shadow 0.5s,
-    transform 0.5s;
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
 }
 
 #card3:hover {
@@ -70,10 +70,10 @@ h1 {
 
 #card3 {
     transition:
-    background-color 0.5s,
-    box-shadow 0.5s,
-    transform 0.5s;
-}
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+    }
 
 #card4:hover {
     background-color: tan;
@@ -83,10 +83,10 @@ h1 {
 
 #card4 {
     transition:
-    background-color 0.5s,
-    box-shadow 0.5s,
-    transform 0.5s;
-}
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+    }
 
 
 #cards-container-marker {
@@ -135,9 +135,9 @@ h1 {
 
 #card8 .card-content-marker {
     transition: 
-    opacity 0.5s
-    visibility 0.5s;
-}
+        opacity 0.5s
+        visibility 0.5s;
+    }
 
 #card9 {
     position: relative;
@@ -166,8 +166,8 @@ h1 {
     opacity: 1;
     visibility: visible;
     transform: translateY(0px);
-
 }
+
 #card10 {
     position: relative;
     background: gray;
@@ -195,8 +195,8 @@ h1 {
     opacity: 1;
     visibility: visible;
     transform: translateY(0px);
-
 }
+
 #card11 {
     position: relative;
     background: gray;
@@ -224,7 +224,6 @@ h1 {
     opacity: 1;
     visibility: visible;
     transform: translateY(0px);
-
 }
 
 #card12 {
