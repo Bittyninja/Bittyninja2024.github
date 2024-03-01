@@ -15,7 +15,7 @@ body {
 #section-3 {
     background: url("../images/sinnoh-plain.jpg");
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 .card-container {
