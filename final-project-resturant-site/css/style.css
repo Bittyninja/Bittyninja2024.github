@@ -945,11 +945,14 @@ body {
 
 @media screen and (max-width: 768px ) and (min-width: 480px) {  
     body {
-        background-color: gray;
+        background-color: #737b43;
     }
 }
 
 #navbar-1 {
-    flex-direction: column;
+    flex-direction: grid;
     align-items: center;
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
 }
